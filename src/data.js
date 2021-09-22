@@ -1,0 +1,66 @@
+// We are importing an array of projects from a data.js file in the same folder. There we are exporting an array of objects which each include an individual project's data:
+
+export const projects = [
+  {
+    title: "React Reserve",
+    subtitle: "MERN Stack",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-1.gif",
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "React Tracks",
+    subtitle: "React and Python",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-2.gif",
+    link: "https://reedbarger.com",
+  },
+  {
+    title: "DevChat",
+    subtitle: "React and Firebase",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-3.gif",
+    link: "https://jsbootcamp.com",
+  },
+  {
+    title: "Epic Todo App",
+    subtitle: "React Hooks",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "./project-4.gif",
+    link: "https://pythonbootcamp.com",
+  },
+];
+
+
+
+export const testimonials = [
+  {
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Jesse Hicks",
+    company: "Zoozle",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    image: "https://randomuser.me/api/portraits/men/94.jpg",
+    name: "Ruben Alvarez",
+    company: "Dooble.io",
+  },
+];
+
+// Once again, we are going to import an array from our data folder. But this array consists of number of strings which represent each of the skills that we know such as JavaScript, React, and Node:
+
+export const skills = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node",
+  "GraphQL",
+  "Material UI",
+];
